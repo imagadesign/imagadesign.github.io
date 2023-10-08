@@ -1,0 +1,132 @@
+.align-right {
+  justify-content:right;
+}
+.navbar{
+  padding: 0.5rem 4rem;
+  background-color: #353a40;
+  z-index: 2;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff !important;
+}
+.nav-item{
+  font-size: 20px;
+}
+.nav-link{
+  color: #9c9c9c !important;
+}
+.nav-link:hover{
+  color: #fff !important;
+}
+.active>.nav-link{
+  color: #fff !important;
+}
+.green-link{
+  color: #18910f !important;
+}
+.banner-container{
+  width: 100%;
+  height: 98vh;
+  margin-top: -83.77px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-info-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.banner-title{
+  width: 50%;
+  text-align: right;
+  position: absolute;
+  right: 7%;
+  top: 45%;
+  transform: translate(0, -50%);
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.banner-text{
+  width: 50%;
+  position: absolute;
+  right: 7%;
+  top: 50%;
+  text-align: right;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.button-container{
+  position: absolute;
+  right: 7%;
+  top: 74%;
+  text-align: center;
+}
+.card-container{
+  padding: 50px 100px 15px 100px;
+
+}
+.card{
+  margin: auto;
+}
+.container-fecha-lugar{
+  height: 400px;
+  background-color: #353a40;
+}
+.img-container{
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/honolulu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.buenosaires{
+  margin-bottom: 20px;
+
+}
+.fecha-lugar-text{
+  padding: 20px 10px;
+  color: #fff;
+}
+.form-container{
+  margin-bottom: 20px;
+  padding: 0 330px;
+}
+.form-text-container{
+  text-align: center;
+}
+.form-text-container h6{
+  font-weight: 300;
+}
+.form-btn{
+  width: 100%;
+}
+.footer-container{
+  padding: 20px 100px;
+  background-color: #1e4053;
+
+}
+.footer-link-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-link-item{
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+}
+.footer-link{
+  color: #fff;
+}
+.footer-link:hover{
+  color: #fff;
+  text-decoration: none;
+}
