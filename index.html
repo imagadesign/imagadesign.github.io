@@ -12,26 +12,34 @@
       <img src="images/logo.png" alt="logo" width="120px" height="auto">
       <a class="navbar-brand" href="#">Conf Bs As</a>
 
-      <div class="collapse navbar-collapse align-right" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">La conferencia<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Los oradores</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">El lugar y la fecha</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Conviertete en orador</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link green-link" href="#">Compra tickets</a>
-          </li>
-        </ul>
-      </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse align-right" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">La conferencia<span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Los oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">El lugar y la fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conviertete en orador</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link green-link" href="tickets.html">Compra tickets</a>
+               
+              </li>
+              
+            </ul>
+        </div>
     </nav>
+    
+      
     <div class="banner-container">
       <div class="banner-info-container">
         <h2 class="banner-title">Conf Bs As</h2>
@@ -105,14 +113,14 @@
     </div>
     <form>
       <div class="row">
-        <div class="form-group col-md-6 col-lg-6">
+        <div class="form-group col-12 col-md-6">
             <input type="text" class="form-control" id="name" placeholder="Nombre" required>
         </div>
-
-        <div class="form-group col-md-6 col-lg-6">
+        <div class="form-group col-12 col-md-6">
             <input type="text" class="form-control" id="lastName" placeholder="Apellido" required>
         </div>
       </div>
+
 
       <div class="form-group">
           <textarea class="form-control" id="text" rows="3" placeholder="Sobre que quieres hablar?"></textarea>
